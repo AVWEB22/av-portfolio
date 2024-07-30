@@ -9,11 +9,11 @@
 	$message = $_POST['message'];
 	
 	// Create Message	
-	$to = 'receiver@yoursite.com';
-	$email_subject = "Message from a Blocs website.";
+	$to = 'angelvinales@gmail.com';
+	$email_subject = "Message from Vinales Consulting";
 	$email_body = "You have received a new message. \n\nName: $name \nEmail: $email \nMessage: $message \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@yoursite.com\r\n";
+	$headers .= "From: av@vinalesconsulting.com\r\n";
 	$headers .= "Reply-To: $email";
 
 	// Post Message
