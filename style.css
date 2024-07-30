@@ -193,6 +193,12 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 .voffset{
 	margin-top:30px;
 }
+/* Dividers */
+
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
+}
 
 
 /* = NavBar
@@ -907,9 +913,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .anastasia-black-button:active{
 	background-color:#424242;
 }
-.anastasia-bottom-margin{
-	margin-bottom:28px;
-}
 .anastasia-thin{
 	font-family:"Lato";
 	font-weight:100;
@@ -984,6 +987,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h6-margin-top{
 	margin-top:47px;
 }
+.h2-margin-top{
+	padding-bottom:0px;
+}
+.html-widget-bloc-20-margin-top{
+	margin-top:0px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1001,7 +1010,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-5541:#111111;
 	
-	--swatch-var-3058:#282828;
+	--swatch-var-3058:#575757;
+	
+	--swatch-var-1575:#EEEEEE;
 	
 }
 
@@ -1169,8 +1180,6 @@ url("img/2.webp") 2x);
 	}
 	.anastasia-white-row{
 		padding:40px 40px 40px 40px;
-	}
-	.anastasia-bottom-margin{
 	}
 	.anastasia-footer-bottom-margin{
 		margin-bottom:20px;
